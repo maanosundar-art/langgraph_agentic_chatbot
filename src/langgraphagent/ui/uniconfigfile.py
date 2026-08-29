@@ -16,4 +16,4 @@ class Config:
     def get_page_title(self):
         return self.parser["DEFAULT"].get("PAGE_TITLE")
     def get_from_model(self):
-        return self.parser["DEFAULT"].get("FROM_MODEL")
+        return self.parser["DEFAULT"].get("FROM_MODEL").split(",")

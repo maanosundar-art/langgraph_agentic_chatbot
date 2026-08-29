@@ -1,4 +1,4 @@
-from src.langgraphagent.main import load_langgraph_apent_app
+from src.langgraphagent.main import load_langgraph_agent_app
 
 if __name__ == "__main__":
-    load_langgraph_apent_app()
+    load_langgraph_agent_app()

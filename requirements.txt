@@ -7,4 +7,4 @@ langchain_google_genai
 faiss-cpu
 streamlit
 tavily-python
-
+ipykernel

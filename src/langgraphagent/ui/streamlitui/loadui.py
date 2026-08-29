@@ -21,6 +21,6 @@ class LoadStreamlitUI:
                 # validate Groq API key
                 if not self.user_controls["Groq_API_key"]:
                     st.warning("Please enter a valid Groq API Key. Don't have one? Get it from https://console.groq.com/keys")
-                    st.stop
+                    #st.stop
             self.user_controls["usecase_option"] = usecase_option
         return self.user_controls
